@@ -5,11 +5,16 @@ import androidx.compose.material3.darkColorScheme
 import androidx.compose.runtime.Composable
 
 private val IndustrialColors = darkColorScheme(
-    primary = Primary,
+    primary = Turquoise,
+    secondary = IndustrialOrange,
+    tertiary = Lime,
     background = Background,
     surface = Surface,
+    surfaceVariant = SurfaceRaised,
     onBackground = OnSurface,
-    onSurface = OnSurface
+    onSurface = OnSurface,
+    onSurfaceVariant = TextSecondary,
+    error = Error
 )
 
 @Composable
@@ -19,4 +24,3 @@ fun Lab14WidgetsTheme(content: @Composable () -> Unit) {
         content = content
     )
 }
-
