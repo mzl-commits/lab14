@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">Panel Logístico</string>
+    <string name="widget_description">Estado y control rápido del carrito logístico</string>
 </resources>
-
