@@ -52,15 +52,6 @@ También se puede compilar desde PowerShell:
 4. Buscar **Panel Logístico**.
 5. Arrastrar el widget a la pantalla y ajustar su tamaño para probar sus tres presentaciones.
 
-## Evidencias
-
-### Capturas
-
-> Agregar aquí capturas de Inicio, Entradas, Salidas, Historial y los tamaños del widget.
-
-### Video
-
-> Agregar aquí el enlace al video de demostración.
 
 ## Informe
 
