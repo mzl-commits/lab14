@@ -29,6 +29,11 @@ El widget **Panel Logístico** resume el estado del carrito desde la pantalla de
 - Grande: información completa, último movimiento, próximo destino, sistema y cuatro accesos directos.
 
 Cada botón abre directamente la vista correspondiente mediante un `Intent` con el extra `destination` (`home`, `entries`, `exits` o `history`).
+<img width="377" height="637" alt="image" src="https://github.com/user-attachments/assets/c8d3cc4c-81c5-4b82-806f-f08cafd10163" />
+<img width="941" height="1672" alt="image" src="https://github.com/user-attachments/assets/64c58b09-0564-4562-8b97-fcbd531b3238" />
+
+
+
 
 ## Ejecutar la aplicación
 
