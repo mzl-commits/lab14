@@ -19,9 +19,16 @@ enum class Destination(val label: String) {
     HISTORY("Historial")
 }
 
+fun destinationFromValue(value: String?): Destination = when (value) {
+    "entries" -> Destination.ENTRIES
+    "exits" -> Destination.EXITS
+    "history" -> Destination.HISTORY
+    else -> Destination.HOME
+}
+
 @Composable
-fun LogisticsApp() {
-    var destination by remember { mutableStateOf(Destination.HOME) }
+fun LogisticsApp(initialDestination: Destination = Destination.HOME) {
+    var destination by remember(initialDestination) { mutableStateOf(initialDestination) }
 
     Scaffold(
         bottomBar = {
@@ -45,4 +52,3 @@ fun LogisticsApp() {
         }
     }
 }
-
